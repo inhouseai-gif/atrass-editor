@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "project_id": "REPLACE_WITH_VIDEO_ID",
+  "analysis_status": "draft",
+  "purpose": "reverse_engineering",
+  "media": [
+    {
+      "id": "reference_video",
+      "role": "reference",
+      "origin_uri": null,
+      "path": null,
+      "sha256": null,
+      "byte_size": null,
+      "status": "unverified",
+      "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+      "video": null,
+      "audio": null
+    }
+  ],
+  "timeline": {
+    "reference_media_id": "reference_video",
+    "width": null,
+    "height": null,
+    "fps": null,
+    "time_base": null,
+    "frame_count": null,
+    "color": {
+      "range": {
+        "value": null,
+        "status": "unverified",
+        "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+        "evidence_refs": []
+      },
+      "primaries": {
+        "value": null,
+        "status": "unverified",
+        "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+        "evidence_refs": []
+      },
+      "transfer": {
+        "value": null,
+        "status": "unverified",
+        "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+        "evidence_refs": []
+      },
+      "matrix": {
+        "value": null,
+        "status": "unverified",
+        "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+        "evidence_refs": []
+      },
+      "pixel_format": {
+        "value": null,
+        "status": "unverified",
+        "reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신.",
+        "evidence_refs": []
+      }
+    },
+    "metadata_status": "unverified",
+    "metadata_reason": "아직 확보 또는 관찰하지 않았음. 실제 확인 후 갱신."
+  },
+  "evidence": [],
+  "colors": [],
+  "events": [],
+  "coverage": {
+    "sampled_frames": [],
+    "sampling_interval_seconds": null,
+    "visual_review_mode": "none",
+    "visual_reviewed_ranges": [],
+    "audio_review_mode": "none",
+    "audio_reviewed_ranges": [],
+    "layer_ranges": [],
+    "design_color_inventory_complete": false,
+    "notes": "빈 연구 템플릿. 영상/음성 검토 0이며 이관 가능 상태가 아님."
+  },
+  "uncertainties": [
+    {
+      "path": "$",
+      "question": "원본 확보·관찰·매핑·재현 검증 미완료",
+      "state": "open",
+      "resolution": null,
+      "evidence_refs": []
+    }
+  ],
+  "validation": {
+    "replication_test": "not_run",
+    "replication_evidence_refs": [],
+    "comparison_criteria": [],
+    "reviewer": null,
+    "notes": "아직 재현 시험하지 않음."
+  }
+}

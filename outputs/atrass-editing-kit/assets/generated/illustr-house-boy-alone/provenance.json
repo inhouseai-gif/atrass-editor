@@ -1,0 +1,47 @@
+{
+  "schema": "atrass-generated-asset-v1",
+  "asset_id": "illustr-house-boy-alone",
+  "created_at_utc": "2026-10-20T21:52:25.419613+00:00",
+  "generation_tool": "built-in image_gen",
+  "is_original_asset": false,
+  "original_design_file_recovered": false,
+  "exact_style_match_approved": false,
+  "image": {
+    "path": "v1.png",
+    "sha256": "779e4b243d36432d7ed2de1f3039069b7b7dea7684f8627d7ef8e0e8415df944",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941
+  },
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "692a95f8ddb6b4b03c52cd5c672682b53f7f5cf38f6dbdb2e0080ee55cd56046"
+  },
+  "reference_frame": {
+    "asset_id": "illustr-house-boy-alone",
+    "native_frame": 8156,
+    "pts": 136069,
+    "time_base": "1/1000",
+    "path": "evidence/asset-replacements/story-candidates-v1/illustr-house-boy-alone-native-first.png",
+    "sha256": "35b085461d062f0065a886f059628fc761e8dffc01b3139cca9d161fac833d9b",
+    "source_video_id": "DvDeXNPS3Wc",
+    "source_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "path_base": "kit root",
+    "purpose": "composition/palette reference; subtitle/chat/thought layers excluded"
+  },
+  "supporting_generated_character_references": [
+    {
+      "asset_id": "illustr-house-couple",
+      "path": "assets/generated/illustr-house-couple/v1.png",
+      "sha256": "5cba28ce430743587e80dc3b5e9d794013ec7ede4696cd0a1a89520e7acdc53b"
+    }
+  ],
+  "original_generated_file": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-784f2962-ca3f-4cc5-8a9e-f62069cecedb.png",
+  "root_visual_review": {
+    "viewed": true,
+    "observation": "Single sad character at left, dark padded coat and warm window at right, cool violet street. Clean text-free art; subject shape, brighter window and sky/coat texture differ.",
+    "full_timeline_render_review": false
+  },
+  "not_yet_timeline_rendered": true,
+  "timeline_status_policy": "Frozen generation provenance; future validation remains separate."
+}

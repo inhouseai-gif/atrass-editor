@@ -1,0 +1,1057 @@
+{
+  "schema": "atrass-public-distribution-v1",
+  "source_commit": "21fbfc188c384d883d8ce5b2a065bc4665a27f2e",
+  "release_ready": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 165,
+      "sha256": "58e03a91fe30c56d0eb910aa4f1b768645580f58425122ec1d1b7376e18b5d42"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2787,
+      "sha256": "6f7afdef3c74bd0073d05f4c2a2eb363e47c79837c89e61d71f231e9c386ad34"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 1006,
+      "sha256": "e76202da12a7187eb2dc4d2d3dd063aaa17cc32c8aad4b7466228fac62d162d9"
+    },
+    {
+      "path": "PACKAGE-VALIDATION.json",
+      "bytes": 2162,
+      "sha256": "2a93a98b641617fc7d42b670cc7235a2bda249f67eebb787aee4fd1c707a5c4b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2667,
+      "sha256": "3197638a8930aecdd90cc51b28c093cc269ad5d87ce6acb2ef8384bee89137e4"
+    },
+    {
+      "path": "atrass.py",
+      "bytes": 1704,
+      "sha256": "4cc46bbb4bbba909f9cc3420ddd05cb969ea63bf1f51e2ae9fe75d7dc3d0a175"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/PRODUCTION.md",
+      "bytes": 12381,
+      "sha256": "47412298d22e63937525210f503e000faeddb6370276ef6dd2581862ceeb1c26"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/RESUME.md",
+      "bytes": 1598,
+      "sha256": "90728d46718eae1ffbfe9870a77d8249bf2b9924a0d95cddc726247c552ed8e5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/SKILL.md",
+      "bytes": 476,
+      "sha256": "76632089b4b7d342c308cb22b2613eda17e5996e5efd3718e922a885cd49108c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/START_HERE.txt",
+      "bytes": 197,
+      "sha256": "897a9eb780d6c5ff3589116869735542a4552110ee1215b138e253e8e922b5f6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/chapter-pilot/gradient-dct-10x8.png",
+      "bytes": 330560,
+      "sha256": "fe0af79ca167465cb26695ed50490c8884d33696b420bddd324c8f987424ae25"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/chapter-pilot/grain-static-seed-20261021.png",
+      "bytes": 2432506,
+      "sha256": "3e2f19214f4fbbc37edda4147dbf33049a02d9278af5e42eb6b8a347f783f39f"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/chapter-pilot/provenance.json",
+      "bytes": 12036,
+      "sha256": "88df9a368f501c48751d363f6e586bf1d499703a15ca910e6562101b15bc5fcf"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/company-library/B-top-left-logo-1920.png",
+      "bytes": 58880,
+      "sha256": "40547d59c5bd211cc2ea6747cb31b2ebaa25e654090b71156920a6ec5a695b33"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/Gaegu-OFL.txt",
+      "bytes": 4344,
+      "sha256": "53a9ce47085d9fef613c7ecb3730dc80d25962510bbea231b89564f58240f251"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/Gaegu-Regular.ttf",
+      "bytes": 3165816,
+      "sha256": "aa52c98336f7c62e2896fc8b12b56a75d5b476d88a2f104b0980f4f7ce0adfc3"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/NotoSansKR-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/NotoSansKR[wght].ttf",
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/Pretendard-OFL.txt",
+      "bytes": 4477,
+      "sha256": "d7f524641646303fc481848d0d1e8a9e56c04ec182c596366598e0a136e42860"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/PretendardVariable.ttf",
+      "bytes": 6803348,
+      "sha256": "347376fe0eec9f09b6b930429db48981303741e6bee28b78bbb17f8080ea513b"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/SUIT-OFL.txt",
+      "bytes": 4380,
+      "sha256": "30d101ee3c35ef629d622d933d261a27b2f60223e0a3b0f36791e569c2b9daa9"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/fonts/SUIT-Variable.ttf",
+      "bytes": 1585020,
+      "sha256": "12e1fea375d27869a686d7432c1e6a38154d394994f5d82ace24f36a7db68333"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-carrot/prompt.txt",
+      "bytes": 1200,
+      "sha256": "3b1ad633c28e6f6b642b2b2800f353300aa9810e5e2047972f51c4349d5980e9"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-carrot/provenance.json",
+      "bytes": 2137,
+      "sha256": "9f275285a4776ca2762021ce96e693559456d265ae1b6e1bbf304da328f01f39"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-carrot/v1.png",
+      "bytes": 515220,
+      "sha256": "1959b36d12844803235634c5509f1ba546d3cd483288f2a78b131a93403176b8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-whip/prompt.txt",
+      "bytes": 1687,
+      "sha256": "619e3f7ca43b2ff329db30a4b919935ada9ea2c3d0e51fced2b84704d1f4bf11"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-whip/provenance.json",
+      "bytes": 2009,
+      "sha256": "b8aa068ec18eff57d8152c48933cf8ceab165a96b9019840daf183953da7eda1"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/icon-whip/v1.png",
+      "bytes": 556925,
+      "sha256": "c57f6799c334685dd324c5f8bde551d1e56f64ffe0b709716bfbbfa2858a3f29"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-100-10-contrast/prompt.txt",
+      "bytes": 1275,
+      "sha256": "7303e1f1fb83622be7544f378acfd9c62088857654e4fa1131317f9c39908b7c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-100-10-contrast/provenance.json",
+      "bytes": 2303,
+      "sha256": "c6e0903bb104ea53ebdfbddba06ef81c8110ff7571d19cd7bb820bc88ecef67c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-100-10-contrast/v1.png",
+      "bytes": 2054510,
+      "sha256": "36f8f25778f08895d54bf030255287b33c8dd466bfc992315c0895ff3dc9fa8e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-argument-green/prompt.txt",
+      "bytes": 1280,
+      "sha256": "cdea2a05344e050008fdfed886cd4b2b64b9bcafbb55890c62b21c549ecbdab7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-argument-green/provenance.json",
+      "bytes": 2298,
+      "sha256": "2e656328bffe87e032fdb207cbf44b08355e8f2e03217adeac0df61168d4c087"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-argument-green/v1.png",
+      "bytes": 1922597,
+      "sha256": "73738db55796790f7cb33412087d2212af9989679b86564260c89383db51b617"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-blue/prompt.txt",
+      "bytes": 1893,
+      "sha256": "c0cb53ce877ed9e57120549a32dc62a28bc913ef5e317aa6d9ab901bc326ed1e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-blue/provenance.json",
+      "bytes": 2347,
+      "sha256": "9cfb59436a3d4a4c3fef75e1a643fdf6183d531503e2d5ed89458facf3ec6170"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-blue/v1.png",
+      "bytes": 1848999,
+      "sha256": "534551dd5831870538f9a1f824458e29338a981aff0e48691e4f98db9e72cd3c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-warm/prompt.txt",
+      "bytes": 1320,
+      "sha256": "acd65aa05f90e886f272315037ba4e6a3ff9f1212b90521491492c9c6265c162"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-warm/provenance.json",
+      "bytes": 2579,
+      "sha256": "b9af02365310827f5439fe87f2d01f6083206c63b05b5d3d4065c0c5eb06adcb"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-bed-phone-warm/v1.png",
+      "bytes": 1921524,
+      "sha256": "b283c444a01937bd3319ed8a560f2493194a78769c8905f2871aa0caba4b385c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-candle-restaurant/prompt.txt",
+      "bytes": 1166,
+      "sha256": "5c73ba12e4ca32f023956b227f50441b6945da553d7d0d12d0c81d74f12cb1a1"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-candle-restaurant/provenance.json",
+      "bytes": 2294,
+      "sha256": "f9885800efd03e04e8decbca475206f9173e0bff2d87daac5aa12c0be8007aa2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-candle-restaurant/v1.png",
+      "bytes": 1910855,
+      "sha256": "fcc43597d0bbf42cb5e39676cf6499f72705f12c920d8ce00b32c5447dc73b05"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-counsel-blue/prompt.txt",
+      "bytes": 2013,
+      "sha256": "9b52d009cc9470a6ff4ee355acd8f7b4902d7ac10d3e2e3324718da09527e55e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-counsel-blue/provenance.json",
+      "bytes": 2333,
+      "sha256": "9f8c99e7a391124ff3206085199c2d61e1b7c6eb457a6d61a988d4f291f90d39"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-counsel-blue/v1.png",
+      "bytes": 2407295,
+      "sha256": "5d320f767b5d4c929918df96e55ae2e34d38307c4c4ec6fffcbf2be98dbd380f"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-flower-phone-split/prompt.txt",
+      "bytes": 1462,
+      "sha256": "7016155cb2e26427f7236cbee8d588b6b1fe7b8f55ed7e19361b020f085117ed"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-flower-phone-split/provenance.json",
+      "bytes": 2553,
+      "sha256": "ecfd0ce9373fdaf5e6e1bb2ed6f0d5addb061c4f48b2597ee69418744a6942f8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-flower-phone-split/v1.png",
+      "bytes": 2090779,
+      "sha256": "3cf87b3b995ebbb3733a0d76d0285bdb46410bfe115317b15527464187ee1a7e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-boy-alone/prompt.txt",
+      "bytes": 1599,
+      "sha256": "692a95f8ddb6b4b03c52cd5c672682b53f7f5cf38f6dbdb2e0080ee55cd56046"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-boy-alone/provenance.json",
+      "bytes": 2010,
+      "sha256": "303429fee78e29aad1d836af6b1ae8a8532a5dc715c0d41a01aeddcebbe2902c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-boy-alone/v1.png",
+      "bytes": 2391102,
+      "sha256": "779e4b243d36432d7ed2de1f3039069b7b7dea7684f8627d7ef8e0e8415df944"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-couple/prompt.txt",
+      "bytes": 1720,
+      "sha256": "09daea6770cc42336b726564656d91005ed5423a162c2f298fa041d829bf8cb8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-couple/provenance.json",
+      "bytes": 2040,
+      "sha256": "1ade774258421ecb37f9eb15b36aeedefa70ea0de31292bc8450b70bee864ffe"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-house-couple/v1.png",
+      "bytes": 2495246,
+      "sha256": "5cba28ce430743587e80dc3b5e9d794013ec7ede4696cd0a1a89520e7acdc53b"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-kitchen-couple/prompt.txt",
+      "bytes": 1064,
+      "sha256": "3ae540ede014eeafe9fdeac44df50a2d151551a1cfbbb5b305eefdf176abe5a5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-kitchen-couple/provenance.json",
+      "bytes": 2350,
+      "sha256": "80fbe34d676a1f023a8299fceb8e6ec5cc5481a876606f83d7c255511fbb5572"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-kitchen-couple/v1.png",
+      "bytes": 2214807,
+      "sha256": "1e8df7bee4a8a29eff1f2c74009b3d903611279c8dc4a6b63921af74faaf190d"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-man-alone-teal/prompt.txt",
+      "bytes": 1134,
+      "sha256": "8678a94f23939df75155a49f1d9ea54a8942e47da3619861956552ba66f7f354"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-man-alone-teal/provenance.json",
+      "bytes": 2260,
+      "sha256": "653eda785235acc1e9db22788cf8e47145570b9b9815cd74f76d3debdcd1bc05"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-man-alone-teal/v1.png",
+      "bytes": 1777488,
+      "sha256": "d6457ec7745352a202c9eabd896e23ddcb94435e6b8f7b259ba150b95de8fa60"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-pastel-reaction/prompt.txt",
+      "bytes": 992,
+      "sha256": "83548265695b9586c3950ca4b754b28274145bc37c9c68e01b1539cb0479aea6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-pastel-reaction/provenance.json",
+      "bytes": 2295,
+      "sha256": "c1bae72f172e3b0cad7ae5bebda426c6e215e6f51443d88f2a1ea72bc17dccd6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-pastel-reaction/v1.png",
+      "bytes": 1928851,
+      "sha256": "cf22f1cb8f2efb219822bd0ac97f83e532ec5990305b5e3a64bed748002dd508"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-playground-couple/prompt.txt",
+      "bytes": 1653,
+      "sha256": "fe988c9e67e4b1ebf6bcd587681a755396e8f033df8550c352e23d09752afb54"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-playground-couple/provenance.json",
+      "bytes": 1832,
+      "sha256": "899f0ef76e3ddf87f349872bbc7e2c35ea3eedcaf7ff480799a5dc4afefdcb40"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-playground-couple/v1.png",
+      "bytes": 2786024,
+      "sha256": "adb52d15a243209154bb0596c4201db48da887e716b1580bc6da67b5365cf3cf"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-definition/prompt.txt",
+      "bytes": 1998,
+      "sha256": "7264fc330eeeb4d3ae091840ec9bb925adc48ba5977f862877ebbea59dbcbaad"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-definition/provenance.json",
+      "bytes": 1619,
+      "sha256": "19be84e8f38540d18a39b26628c475dd0118b9e927f9dd5a465f712f9ad7d183"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-definition/v1.png",
+      "bytes": 2332214,
+      "sha256": "c524d969bc508bb933f72a76a3a07d549f64e3bdf3c4b9d4a3d65cf20ea2fa8d"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-flexibility/prompt.txt",
+      "bytes": 1027,
+      "sha256": "809f0926a0cf0b8892b356d9484f08895450a631f189b327dab37ae117e1c762"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-flexibility/provenance.json",
+      "bytes": 2384,
+      "sha256": "5238eba63c6510008470aa0e0506e94c3cf8647d661e67ce96d9b657b0da3167"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-riverside-flexibility/v1.png",
+      "bytes": 2275335,
+      "sha256": "6577150d395ad4dc93a73af62e793ea0d25c0aba4c00b6121dcacbc8f376c54b"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-street-night/prompt.txt",
+      "bytes": 1881,
+      "sha256": "ee3038b84c5e987fed69889b79097dfdbcbeef64e6c8c4863b703c831716d2f1"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-street-night/provenance.json",
+      "bytes": 2480,
+      "sha256": "a4cdd4861551979594abcb764304caddd1569143280e4a42a5c0b5ce8be3dbf8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-street-night/v1.png",
+      "bytes": 2300095,
+      "sha256": "390d16bf07c645bfc08c2d2ed90f3af332ff937767cbb4b4a5719318f24d3df7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-sunlit-gratitude/prompt.txt",
+      "bytes": 1211,
+      "sha256": "7112fedee3e693b0c4e97566c21dc9c3e658b2bfda0ff756b063888fca9affa3"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-sunlit-gratitude/provenance.json",
+      "bytes": 2282,
+      "sha256": "e4cf96538f3f81cec59cce73682df020824e9eaad1c58c2825f66a17e9d18f29"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/assets/generated/illustr-sunlit-gratitude/v1.png",
+      "bytes": 2082885,
+      "sha256": "0669ba92c1c8d36e104196347a2b7426cd577c5855b629153a6ea574d6daf931"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/add_chat_sound_cues.py",
+      "bytes": 6454,
+      "sha256": "add8e6e10ffc20f096847b9eaf630996fc5f8c8061bfc1697e3298bb400f1d48"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/append_source_ending.py",
+      "bytes": 12156,
+      "sha256": "a12befe1f92774d2775ce5cdd19e672395870fa7932a1dfdeae536dd98a1e19b"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_number_contrast.py",
+      "bytes": 11612,
+      "sha256": "ef739f865530c06f4f40bdef040aaad10604e6be85803bfaddfb5ba081fceb83"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_quiet_cuts.py",
+      "bytes": 14516,
+      "sha256": "81edc9c4f1931e328a9aec1742336d19e257d1da02aed12a2943e82c47de9f08"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_retake_cuts.py",
+      "bytes": 9224,
+      "sha256": "a721bb9845ccf68439331158467f4563b745a6f68a3822519f5d8977cfcf86d4"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_source_assets.py",
+      "bytes": 21814,
+      "sha256": "6afe5d91a561d5b00909f8b4885a971114886be059fd75437965031e3532d6b0"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_source_chapters.py",
+      "bytes": 8992,
+      "sha256": "986bdf6893250e15728039fb2e941b6a8b549c96242ce9ee0626e7b0c01206b4"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/apply_source_chat.py",
+      "bytes": 14747,
+      "sha256": "373a28aef386edfa960d1b2865291683e120d5324817fd80dc2453ccaeaa1af7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/assemble_edit_plan.py",
+      "bytes": 18580,
+      "sha256": "3496285ef701d8c61daa181fd06c48a64399b18521fe95c27f1a601d36b20eba"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/audio_policy.py",
+      "bytes": 1944,
+      "sha256": "34efcdd2174c0ebd68219d974b26ee90321dd00163d185145b61cd4c322d2ad5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/audit_caption_coverage.py",
+      "bytes": 3581,
+      "sha256": "9bb3e9c6e1a6efbefce5ca8c0592b4afdb366d4397f538a03c708d5d7ce4c805"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/balance_transcript_captions.py",
+      "bytes": 9469,
+      "sha256": "7b605825a001fdd300775d0deae84b03b1589001aa61f8691149c9dcbfada040"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/bind_recipe_source.py",
+      "bytes": 4767,
+      "sha256": "4ff572319e5fdb074636d91f6b7d1a0331cc993883598a2095e79ba1b93f7a03"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/build_reference_project.py",
+      "bytes": 41455,
+      "sha256": "8e184d57aba3fd6d6caec6196ac3791e703b9225c0a42b8bce24c41a386cb461"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/character_reveal.py",
+      "bytes": 11322,
+      "sha256": "3c1fa1c8ba57ae2a5b6b6994d91011ec8f7fe0feecb63b37b70934e2fddc4e6e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/chat_layers.py",
+      "bytes": 12168,
+      "sha256": "8ac6b30cdbf3a5452d0cef284a724e89c5029de26957b759d0dd76ffe350a133"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/compare_render.py",
+      "bytes": 3749,
+      "sha256": "83c6869c859b6f27ba25fe9f8e5646beae22bca14064ff7ae0efcbfdfae5a3b3"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/compile_plan.py",
+      "bytes": 16222,
+      "sha256": "6d3413a61199f3dea9a25680182da6a5d700bf7eb0e0f5b0b07ee0aed4073462"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/compose_source_style.py",
+      "bytes": 13426,
+      "sha256": "baea4ec3c7758b309a26f48384e415cee39dd9b15a7a90f7dd30c658102b5f91"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/create_chapter.py",
+      "bytes": 16071,
+      "sha256": "562feb2a739a15f4e0b99a45493776b34344dd7fe852fe759e05f929e9ee70dc"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/create_panel_shadow.py",
+      "bytes": 8064,
+      "sha256": "73ce14bac9e5ea88048d29c947937d416ac490b2ac304e2c355d0c0cce63b060"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/create_text_halo.py",
+      "bytes": 17448,
+      "sha256": "3eaa07ff50c1afcab373f4308bce7adb24a3ff0f3a712ad76514e9df038de278"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/deduplicate_chapter_text.py",
+      "bytes": 4668,
+      "sha256": "9a84967351a54f6cb56c18fbad178057f5f4f2c6b9b09a2d30342ae5107c2ff6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/draft_from_transcript.py",
+      "bytes": 17323,
+      "sha256": "ec186e6bf45b9aeef1a3abca478a2f935b22a5efb4e5eb4470b3e31aa8f9e4d5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/edit_caption_copy.py",
+      "bytes": 4463,
+      "sha256": "7fad431fe6a9ca5b1df56b86d56d435dadec2f9cae73fdc7b2bb4d0c243dc056"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/export_delivery.py",
+      "bytes": 12505,
+      "sha256": "c4a0070210525b751787edba66d206e2cae901c35553187d2568bd84dc1056f2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/export_nle.py",
+      "bytes": 39507,
+      "sha256": "b9b83eea1d08bc8e5eec3eefdbb170895d8356cb48ccd6c7fdd0b30ff759fd3d"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/export_recipe.py",
+      "bytes": 11872,
+      "sha256": "c8b4f13da0ac619cb4ce971ed5cc9f68d908c8967b5b821647aa0b9062149ead"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/extend_chapter_cover.py",
+      "bytes": 5297,
+      "sha256": "2a5e0148ea9358c47381f2a03addcc3652997cffbef376ff042d9bf89b36f395"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/extend_source_caption.py",
+      "bytes": 6170,
+      "sha256": "1ee397b8ef2e04dfa523599af8c38eccb728b0422df0c86110ee0937377dfa77"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/extend_source_tail.py",
+      "bytes": 5853,
+      "sha256": "516c15c049c0b4fac1308d03a053c248c12e57d24dc66f20cd46188e1dcf9890"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/join_reference_projects.py",
+      "bytes": 19293,
+      "sha256": "c673a23c97cb467625f04b858abac4ba2c3551fa8b73c75d27c49dd27d048827"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/normalize_asr_overlap.py",
+      "bytes": 11165,
+      "sha256": "90736fa9242e053f4da03500e7fc7c4f2ddac9cc6a144b920c0baebc9c08defd"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/place_source_text.py",
+      "bytes": 3551,
+      "sha256": "aafa01f7eb8dbe2a4837699c81c0eb9d5af7951e6ee414059cf748e18d9b0e97"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/prepare_job.py",
+      "bytes": 8495,
+      "sha256": "1fdda7485a760258f59affb568c0b8e217cbdf66b88f07f979c2a8ebb47e8953"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/production.py",
+      "bytes": 39161,
+      "sha256": "c93169a1c2f510f6a821d5ef0e8ef869e67e5ba2183d978a8a5f6dbab67f18cd"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/rebind_source_events.py",
+      "bytes": 4249,
+      "sha256": "48293baaedc187948cd4c14cf12a6e2f891db78317ab10db5df08c4335f39f31"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/refine_transcript_draft.py",
+      "bytes": 12127,
+      "sha256": "58650c0b9be8ecc8cd1c2b0daa4d720fe8c663dfae9da6847c1033fd28ac6988"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/regroup_plan_captions.py",
+      "bytes": 9884,
+      "sha256": "4e7ba5e722d11388adde0b568d4d64ed4feaf1bf5efce098fd5acb6920c604c9"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/relink_by_identity.py",
+      "bytes": 3243,
+      "sha256": "4a152059a7a5e0222475dd0d0009ef39b9956506a72c8e6e3e23b084b82ca4df"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/relink_project.py",
+      "bytes": 5861,
+      "sha256": "59b51fe374383cc66c82c5b8f33f314e293dfa7486299ea5b3c5231dbc8e06e9"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/render.py",
+      "bytes": 29530,
+      "sha256": "27a4248d43bc9269328c97b29011c4dc3274e1da87710ae0c0bfdd3a79524474"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/requirements.txt",
+      "bytes": 72,
+      "sha256": "ca75e7496cdb49393d7e85ceadb697268ede4a17b4fbb5b22f865265939eea92"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/restyle_source_captions.py",
+      "bytes": 4895,
+      "sha256": "361d2767c885ea35f5f28236e251d4cbba5eb21fc651be3d759a2ca804ad65fc"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/review_movie.py",
+      "bytes": 9676,
+      "sha256": "8ee7bde523d67b341a4274d283cd38b1b6e711667e7138e603867416043a3116"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/revise_caption_selection.py",
+      "bytes": 6684,
+      "sha256": "5660daf8c1b8d8242aff4ca32fe8c0928833ef034f80c6f0e438ec4f31db5d1e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/run_longform.py",
+      "bytes": 14447,
+      "sha256": "5e9fe067bb6b6b5f277958c7ad048debec6b37ecffb347f123e17d08a993a177"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_apply_quiet_cuts.py",
+      "bytes": 5760,
+      "sha256": "0414f575812f1c4f7b3234bd0df722a1a3aa72bd796c4b91a1090a18518267d0"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_asr_overlap.py",
+      "bytes": 7149,
+      "sha256": "f60905ee9aed838990f4333ae9ba9b95bb0e9318f06f22319b80c4b206e16ea5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_audio_windows.py",
+      "bytes": 4869,
+      "sha256": "25da62c5ddd91c0cc525224318c7c57f77a975c937ae980e171c180416a28a19"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_caption_balance.py",
+      "bytes": 4205,
+      "sha256": "a9f4e9f6d100103f4acff8cfb60b6d49e98adfbe63333322c2325418afacbf37"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_caption_copy.py",
+      "bytes": 2249,
+      "sha256": "a80df1e2eaf5597cda5b280e17da4c471f3ced228bf9929e4a001cf58386b3bc"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_caption_extension.py",
+      "bytes": 3297,
+      "sha256": "5cbecc003fac568361ce0b9ab53d2ca8a498e80e0e00848c8b3870a0b9c402ca"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_caption_regroup.py",
+      "bytes": 4236,
+      "sha256": "a17d0f0380e9cb50c6a69fd5965ce108c3a29ea7eacf95556c43b1d5ab5815fe"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_chapter_dedup.py",
+      "bytes": 2515,
+      "sha256": "29346130d962d09b0eced4d01a10ab1e484a39123e41a5cbc688f0c426f1f8fa"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_chapter_template.py",
+      "bytes": 12633,
+      "sha256": "bffb08182ac8964d646a5f194af44c9d406eaf1e8c16156d4ff39339f61d2419"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_character_reveal.py",
+      "bytes": 8615,
+      "sha256": "633b593bb64843db10606e93e44e49bcf3d899236bbecfd0c1068d57c60b04c7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_character_reveal_nle.js",
+      "bytes": 3212,
+      "sha256": "e12907e8cc7ae0d006edc62bc534e301d3a22cf2af236fc25820d1e6385387c7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_character_reveal_nle.py",
+      "bytes": 14596,
+      "sha256": "76da158967a7e172783ed64f3a813b5784104c8d41937f4e650b0190275237f0"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_delivery.py",
+      "bytes": 3744,
+      "sha256": "7ca21bca6a3e325c9b44fdff5dcf3b604c58d2dc8639c2086a52332e87128da7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_draft_track_coverage.py",
+      "bytes": 4602,
+      "sha256": "4f63d515947682032aa0522c0432acf70094495b60c50a7cb79c54f226fcb3b8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_emphasis_input_guard.py",
+      "bytes": 6899,
+      "sha256": "cf6ec70f1be61ad651cf48a9ba78afd3a276c7c6ea5ed6ca2a77e3da64ad007e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_generated_publication.py",
+      "bytes": 8262,
+      "sha256": "d82ac277c602538e1dda6bfac3f09ad35046d359d76a183fcb68cea0d90a6413"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_geometry_overrides.py",
+      "bytes": 12044,
+      "sha256": "f1d71f3f4668fe48d9c0257fc7123eed4ed84f8eeb2450127394631622ca16f7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_graphic_span_overrides.py",
+      "bytes": 6609,
+      "sha256": "767d44a2fbfdca4e3968dc48ef5a783a3fff4fb2a5fd2d398aad4d97a5fa7424"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_local_asr_preparation.py",
+      "bytes": 3454,
+      "sha256": "11f5df4c7862cdb770c70dc1168b34ed0dfab5df84519d0910ba1daefe1c8601"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_longform_pipeline.py",
+      "bytes": 6456,
+      "sha256": "d8b06cc693f88f86a895f3a70930ac5cc020e459abdf0df77f27e0a0238b4c33"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_mp4_sample_clock.py",
+      "bytes": 3089,
+      "sha256": "7fe6ff874f5dd5bf87b1bdc6924e0a90473cccb720afffe5aae3eabe037b41d6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_nle_scale_guard.py",
+      "bytes": 6655,
+      "sha256": "7f330758e4ea75744e2d72490478bd6d53eb6a7545488f7235b06a2b7d7be47c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_panel_shadow.py",
+      "bytes": 5417,
+      "sha256": "dc3a6e3fbcd5562e7da96c5db4b14f13b7e9abb02238882b50004547636a25a2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_plan.py",
+      "bytes": 4319,
+      "sha256": "a3c819ee1c1821a3b2ffb45c6f366841649e0f71e9a34928564c9ed5d33527da"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_plan_emphasis_fit.py",
+      "bytes": 15435,
+      "sha256": "12dbe230be20163f1de3bbfe5df1b7574fdd7b913ed6a9a010ae2ce5f281e3bb"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_production.py",
+      "bytes": 10527,
+      "sha256": "f45f8dde4a841d18e65d0ace02e8426270514050921d6903acfcfa26f7e25cfd"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_quiet_cuts.py",
+      "bytes": 4867,
+      "sha256": "8d32d08e312cec480fc24946559e8671b21058bd415b48908f6026705fba0e83"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_raw_start.py",
+      "bytes": 4961,
+      "sha256": "b3624c625eedba0fa37cfbd0ea66b7c21989a55ca60c4ebd6f9e5f933433b7a4"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_rebind_source_events.py",
+      "bytes": 2972,
+      "sha256": "05386a36e8fb095a65965169c41e774a4c156657352da363bacd4a0bf648c877"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_reference_graphics.py",
+      "bytes": 15050,
+      "sha256": "4389b32eeafc6bfb32e11dca809a3ce632174909212a005f1b4d23d16dda05ba"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_reference_join.py",
+      "bytes": 12582,
+      "sha256": "d10276df514d8898bbec0f501e11059b5a5639c1e2651aaecaf7fc63ba77d5d4"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_relink_by_identity.py",
+      "bytes": 5417,
+      "sha256": "4be3aebb0f1820a2a1ee936a761a82e0908ba64d06a289373d5b3fcc80dcbdbf"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_render.py",
+      "bytes": 3342,
+      "sha256": "80cb1c02e9787e93f03a053c02ad8e68f308b0758a7b1ef96aedcc71652d10e2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_retake_cuts.py",
+      "bytes": 3617,
+      "sha256": "0acda1c1a53a9b57de2f84dd6311615c09de5f69bb413387bc165f264dd8f4db"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_screen_blend.py",
+      "bytes": 8594,
+      "sha256": "6f405187bd2dcec0846ef2e6d0d068a334664130442144defa01849440615cd5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_screen_integration.py",
+      "bytes": 13742,
+      "sha256": "6fcca5c0d5dddc5af6763fdac8cb76e5d7faa3cc1b1fe4d3d35435951a35865c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_silent_chapters.py",
+      "bytes": 3337,
+      "sha256": "77db362c15efdb295b8449e74ec133ea56e4acacec081fc6205927dcfdbc3962"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_assets.py",
+      "bytes": 12703,
+      "sha256": "23f338a5cee8bc00980f37b3b76d165c35179439a354426a5c0db26a07c08a9a"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_caption_style.py",
+      "bytes": 2378,
+      "sha256": "a10a38df55f9867c092c01b5c52a9ab9476e343afcf0ee7bc573d754d06938cb"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_chapters.py",
+      "bytes": 6582,
+      "sha256": "7be9965b3c75d480acae856882deb141e618297052e9547c90ec7ebe458ce1b5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_chat.py",
+      "bytes": 5233,
+      "sha256": "c99621dc8d38e59b474cff82c047f60ec660609c72dc93f1af06b08adf244e57"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_dialogue.py",
+      "bytes": 17044,
+      "sha256": "0c5f4a1707f314687b191b92b14cb5b6a3f3cf7791fec0763a272bd986dfca09"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_tail.py",
+      "bytes": 2246,
+      "sha256": "e54f95e10c7a9c72c774ee5d78b8a6feedca28ab380b1784f83eff857422230e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_source_visual_events.py",
+      "bytes": 20469,
+      "sha256": "3487ad475f7426d763f7d6ebc1d434e2cfeda0f5803ca94ab9d242ab590d3204"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_terminal_chapter.py",
+      "bytes": 2131,
+      "sha256": "9b5db69c73aa1d4fc440400d1d030fd8362e50d18e72ecb77a20b91f1c605e80"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_text_halo.py",
+      "bytes": 10326,
+      "sha256": "f1e8f973271f9c94d59a229d1d57b5e2b0526a04ab8a06ea2aa4c31208993ece"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_transcript_draft.py",
+      "bytes": 6381,
+      "sha256": "6456508a695a584385a88fa4c79f91340484644f89b6aaeee40823052d65f296"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_transcript_editorial.py",
+      "bytes": 6590,
+      "sha256": "77194818caf37994e67735d76f00065a62a018d0d844fc25c95612e65cd47546"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/selftest_transfer.py",
+      "bytes": 7496,
+      "sha256": "3b351f4c73ad0e4a9f2e83d4a191eaac4d3a82253cd737d1cbe457a5a3089981"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/set_terminal_chapter.py",
+      "bytes": 5631,
+      "sha256": "2277b01a7664ccdb40d2b7e19eae092b7aea18934867dd91342908a35049cfc8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/silence_chapter_readouts.py",
+      "bytes": 8693,
+      "sha256": "bcf49f098ca78d4e914c2d069d3af7cfb74c803d6662b8fed6be0586d44e9a34"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/source_quantization.py",
+      "bytes": 8935,
+      "sha256": "4a8533bd67543fd27b9f1942dd70f7ec9d08d1d6b50a63191dd5395612305860"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/start_from_raw.py",
+      "bytes": 14397,
+      "sha256": "4df555bdaaa19ac408e726389cf51e28c5b62a6e70094366ff14f3eeb7eb3a62"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/suggest_quiet_cuts.py",
+      "bytes": 13124,
+      "sha256": "faf2fa334d4b50054d1183fe1dc25b9c630141de029d25e3b93ebe0ba9b4e15c"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/validate_chat_layers.py",
+      "bytes": 24343,
+      "sha256": "30fb64fe80c0012f648598903333d1d373cec6032f5bb9240a114e8c42ab87eb"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/validate_nle_export.py",
+      "bytes": 5955,
+      "sha256": "cc66d7b9b68952cdff1aba818c2825bc3ab54985c166fb95c32b915c840576e6"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/engine/validate_nle_jsx.js",
+      "bytes": 4477,
+      "sha256": "d58498932caa77ebe90f30377fe0cfcb6b38e524b8b8359c3576567d333e9c20"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/projects/A-chapter-pilot-procedural-v1.json",
+      "bytes": 4099,
+      "sha256": "4a898fda58d01ddef5f8851430be770dc3abffca431c637a51a6cbce00909ab3"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/references/research-status.json",
+      "bytes": 755,
+      "sha256": "b8fa2510a6859269a9365c25b21ee2dbbb24b4c49ce76681cd1dce18b0cae662"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/references/work-queue.json",
+      "bytes": 642,
+      "sha256": "7a7ff490f2b1c7d87ccb2b898458f65cc5c2397d697c317877e999fd7641af24"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/schemas/edit-event.schema.json",
+      "bytes": 28866,
+      "sha256": "b09d5b7a1ddaccf6cb73bf80c9bdf08a8de59996b90508756e4f38e78203d209"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/schemas/manifest-draft.template.json",
+      "bytes": 2667,
+      "sha256": "07a60e9c8d1f08e8fc9f22fd2cca97eed5768b993b8435392fd7de83daedbc57"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/_audio/align_audio.py",
+      "bytes": 2155,
+      "sha256": "38f87914cfb5c6ad2afd6d993b6d382145dbb0a202960652b90f27d95b97ef2e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/_audio/map_audio_segments.py",
+      "bytes": 3083,
+      "sha256": "db5727190a1e3c068df69e055aa735d2866c4c8ac4ee84b4a332d159863aeb25"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/_audio/refine_audio.py",
+      "bytes": 1364,
+      "sha256": "59f51bac79976daed0d20845ed04d67f8548d52ff136dfb37b160977c57433f4"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/_audio/refine_boundaries.py",
+      "bytes": 2225,
+      "sha256": "d07e494ca1197bb1db747fa325cc2375a0e5e89a1cdf1d8c34910ada8548616a"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/audio_audit.py",
+      "bytes": 26967,
+      "sha256": "7fa87ab4d922a05d9f976140f17d8865d168a9bdcc257c00226e8a177456abc2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/audio_map.py",
+      "bytes": 3061,
+      "sha256": "9e25c35a2f41213079132a3d9f5bcdc7f037126fc96c69ae18cf5dfe1f2398b7"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/audit_reconstruction_coverage.py",
+      "bytes": 44877,
+      "sha256": "df05ec75eaa020b1e436b2e19def2fb9e867d1dfb95c051744f7f37e0e86bbdb"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/extract_adobe_template_facts.py",
+      "bytes": 5884,
+      "sha256": "fe00f4cfbfedc237e4a1013787d5c7a7127b3da277c07d3cd6a466900eb038d8"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/extract_captions.py",
+      "bytes": 19582,
+      "sha256": "d78c5de5c5cab5e885d4326d6459aa072c583c26bd1245eed49083ebd22bc747"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/recover_black_backed_phrase.py",
+      "bytes": 4779,
+      "sha256": "f93b46bca3534ca61819c0929fbbf4d4a53a0ad4615901983cea3929638a7cf5"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/recover_white_text.py",
+      "bytes": 3481,
+      "sha256": "5bbbfd58e80228dbed1b0414a35fbfdfd39f126931763dd9444c11a75301a295"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/requirements-audio-audit.txt",
+      "bytes": 163,
+      "sha256": "99cb949526be94258ae43399ed2ab6f360894c6b25a9705af42a4d9552a887e2"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/requirements-audio.txt",
+      "bytes": 23,
+      "sha256": "de1e6a74630e14d22a31b98c3ba7a8c5e20fc820e1db901d49882370a40fc132"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/selftest_manifest.py",
+      "bytes": 9647,
+      "sha256": "8c645992725104ace438653380818270a4b42fee734744f4d0e1a0ec0bfce71e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/selftest_render_coverage.py",
+      "bytes": 5697,
+      "sha256": "193c63e721e143a058b8b2b247011bfdd476d8dce4f87a5b691a983ad17df56e"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/selftest_video_map.py",
+      "bytes": 3527,
+      "sha256": "0fb27c2f577f08960e43708b03ff990c4583867261f7a8bbb5f86420d2daf2c1"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/test_export_recipe.py",
+      "bytes": 3716,
+      "sha256": "fce9fc15f142f61c007c2b486c129a78fe0f452ed913a796474abeb632b80fc0"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/validate_caption_geometry.py",
+      "bytes": 17248,
+      "sha256": "6e30cd184e9f04a7f102f60c35beab837b22d272fddb4344516040d09f142e43"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/validate_caption_layers.py",
+      "bytes": 5904,
+      "sha256": "bdb170436799bf294b1808de3b9cc4238bfee810b91ab5e77a4606315984cb55"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/validate_manifest.py",
+      "bytes": 21615,
+      "sha256": "49930382fbf609650c351369132713cff6c9ac7f8e16fe5a13b3842ae2f8db1f"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/video_map.py",
+      "bytes": 51509,
+      "sha256": "1dc4753133589e5e26891a7d7a3bdb298e03c7bdea8d5608f64fe925c2b3255b"
+    },
+    {
+      "path": "outputs/atrass-editing-kit/scripts/vision_ocr.swift",
+      "bytes": 1742,
+      "sha256": "b1f8789883e4f76c49d61fd45141a7882f5015e8a06894f4ac5c48b432a54663"
+    }
+  ]
+}

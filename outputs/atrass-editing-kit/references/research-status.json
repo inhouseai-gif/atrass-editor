@@ -1,0 +1,21 @@
+{
+  "updated": "2026-10-23",
+  "distribution": "public-common-A-runtime",
+  "source_commit": "21fbfc188c384d883d8ce5b2a065bc4665a27f2e",
+  "release_ready": false,
+  "known_whole_recording": {
+    "frames": 23644,
+    "seconds": 788.1333333333333,
+    "retained_units": 1344,
+    "related_checks": 36,
+    "selected_frames_viewed": 426,
+    "output_lufs": -16.72,
+    "output_true_peak_dbtp": -1.56,
+    "scope": "existing edit decisions rendered through common engine"
+  },
+  "direct_listening_seconds": 0,
+  "other_actual_mac_verified": false,
+  "new_recording_repeat_quality_verified": false,
+  "exact_reference_style_verified": false,
+  "next": "Use PRODUCTION.md for actual new source; verify requested output files; keep remaining gates explicit."
+}

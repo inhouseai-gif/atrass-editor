@@ -1,0 +1,155 @@
+{
+  "schema": "atrass-render-v1",
+  "title": "A 챕터1 절차적 배경·후보 폰트 무음 재현 시안",
+  "variant": "A",
+  "width": 1920,
+  "height": 1080,
+  "fps": "60000/1001",
+  "duration": 3.4701333333333335,
+  "release_ready": false,
+  "reference_range_frames": [
+    5131,
+    5339
+  ],
+  "reference_native_pts_seconds": [
+    85.602,
+    89.072
+  ],
+  "reference_cfr_range_seconds": [
+    85.60218333333333,
+    89.07231666666667
+  ],
+  "media": {
+    "procedural-gradient": {
+      "path": "../assets/chapter-pilot/gradient-dct-10x8.png",
+      "type": "image",
+      "role": "procedurally_created_graphic_asset",
+      "provenance": "Low-frequency DCT coefficients fitted to non-text RGB sample measurements; not a source frame or original artwork."
+    },
+    "procedural-grain": {
+      "path": "../assets/chapter-pilot/grain-static-seed-20261021.png",
+      "type": "image",
+      "role": "procedurally_created_graphic_asset",
+      "provenance": "Seed20261021 finite static generated texture; original grain identity unknown."
+    }
+  },
+  "fonts": {
+    "suit": {
+      "path": "../assets/fonts/SUIT-Variable.ttf",
+      "status": "candidate_not_original_confirmed"
+    },
+    "noto": {
+      "path": "../assets/fonts/NotoSansKR[wght].ttf",
+      "status": "candidate_not_original_confirmed"
+    },
+    "pretendard": {
+      "path": "../assets/fonts/PretendardVariable.ttf",
+      "status": "candidate_not_original_confirmed"
+    }
+  },
+  "clips": [
+    {
+      "id": "chapter1-generated-gradient",
+      "in": 0,
+      "out": 3.4701333333333335,
+      "source": "procedural-gradient",
+      "source_in": 0,
+      "status": "procedural_approximation",
+      "geometry": {
+        "scale": 1
+      }
+    }
+  ],
+  "layers": [
+    {
+      "id": "chapter1-generated-grain",
+      "kind": "image",
+      "source": "procedural-grain",
+      "in": 0,
+      "out": 3.4701333333333335,
+      "position": [
+        0,
+        0
+      ],
+      "z": 10,
+      "status": "procedural_approximation"
+    },
+    {
+      "id": "chapter1-white-title-box",
+      "kind": "rect",
+      "position": [
+        464,
+        478
+      ],
+      "size": [
+        989,
+        125
+      ],
+      "fill": "#FFFFFF",
+      "in": 0,
+      "out": 3.4701333333333335,
+      "z": 20,
+      "status": "observed_bbox_approximation"
+    },
+    {
+      "id": "chapter1-small_heading",
+      "kind": "text",
+      "text": "CHAPTER 1",
+      "position": [
+        851,
+        402
+      ],
+      "fill": "#FFFFFF",
+      "font": "pretendard",
+      "font_size": 120,
+      "weight": 550,
+      "tracking": -3,
+      "glyph_width": 217,
+      "glyph_height": 32,
+      "status": "fitted_render_candidate_not_original_font",
+      "reference_bbox": [
+        851,
+        402,
+        1068,
+        434
+      ],
+      "in": 0,
+      "out": 3.4701333333333335,
+      "z": 30
+    },
+    {
+      "id": "chapter1-title",
+      "kind": "text",
+      "text": "한 소녀와 한 소년 이야기",
+      "position": [
+        488,
+        503
+      ],
+      "fill": "#000000",
+      "font": "noto",
+      "font_size": 120,
+      "weight": 400,
+      "tracking": 0,
+      "glyph_width": 941,
+      "glyph_height": 76,
+      "status": "fitted_render_candidate_not_original_font",
+      "reference_bbox": [
+        488,
+        503,
+        1429,
+        579
+      ],
+      "in": 0,
+      "out": 3.4701333333333335,
+      "z": 40
+    }
+  ],
+  "audio": [],
+  "limitations": [
+    "Silent visual draft: chapter speech/BGM/SFX has not been established for this standalone card.",
+    "Generated low-frequency gradient and finite static grain approximate observed appearance; original background artwork and grain settings remain unknown.",
+    "Fonts were ranked against one observed phrase per layer after fitting measured glyph bounds; not original font identification or new-text typography approval.",
+    "208 native reference frames are represented by a CFR60000/1001 hold; original1ms PTS and native frame indices are preserved separately.",
+    "No finished reference video/audio frames are used as rendered media."
+  ]
+}

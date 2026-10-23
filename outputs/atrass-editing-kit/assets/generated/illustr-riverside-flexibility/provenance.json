@@ -1,0 +1,50 @@
+{
+  "schema": "atrass-generated-replacement-provenance-v1",
+  "asset_id": "illustr-riverside-flexibility",
+  "created_at": "2026-10-20T22:29:17.275113+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "skill": "<source-machine>/.codex-inhouse/skills/.system/imagegen/SKILL.md",
+  "generation_arguments": {
+    "prompt_file": "prompt.txt",
+    "prompt_sha256": "809f0926a0cf0b8892b356d9484f08895450a631f189b327dab37ae117e1c762",
+    "referenced_image_paths": [
+      "<source-machine>/Documents/Codex/2026-10-20/x20-x20-https-www-youtube-com/work/remaining-illustrations/illustr-riverside-flexibility-native.png"
+    ],
+    "transparent_background": false
+  },
+  "input_role": "composition, palette, framing and painterly style reference; reference titles and subtitles excluded from generated artwork",
+  "reference_video_id": "DvDeXNPS3Wc",
+  "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+  "input_images": [
+    {
+      "asset_id": "illustr-riverside-flexibility",
+      "native_frame": 28816,
+      "native_frame_source": "previous canonical asset-gap inventory; exact PTS matched on this decode",
+      "pts": 480747,
+      "time_base": "1/1000",
+      "path": "evidence/asset-replacements/latefilm-candidates-v1/illustr-riverside-flexibility-native.png",
+      "sha256": "bb68c46bc8f2089c11572763baedce19b8670f697ae4b3f15f2f21394a5cfb14"
+    }
+  ],
+  "generated_original_path": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-edf8662c-f598-4fb9-8e01-761054b2ff8c.png",
+  "original_preserved": true,
+  "selected_file": "v1.png",
+  "selected_sha256": "6577150d395ad4dc93a73af62e793ea0d25c0aba4c00b6121dcacbc8f376c54b",
+  "mode": "RGB",
+  "size": [
+    1672,
+    941
+  ],
+  "source_original_asset_recovered": false,
+  "replacement_artwork": true,
+  "root_visual_review": {
+    "reference_and_generated_output_viewed": true,
+    "clean_no_baked_title_or_subtitle_observed": true,
+    "selection": "candidate for timeline use",
+    "observations": "Woman wipes a brown stain on the man’s sleeve using white tissue; navy water and colored lights retained. Replacement is brighter and more visibly painterly, stain size and figures differ."
+  },
+  "not_yet_timeline_rendered": true,
+  "exact_style_approved": false,
+  "release_ready": false,
+  "provenance_frozen_at_generation": true
+}

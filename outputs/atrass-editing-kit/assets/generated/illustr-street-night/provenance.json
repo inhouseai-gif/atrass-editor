@@ -1,0 +1,51 @@
+{
+  "schema": "atrass-generated-replacement-asset-v1",
+  "created_at_utc": "2026-10-20T21:02:02.199277+00:00",
+  "id": "illustr-street-night",
+  "version": "v1",
+  "output_path": "assets/generated/illustr-street-night/v1.png",
+  "sha256": "390d16bf07c645bfc08c2d2ed90f3af332ff937767cbb4b4a5719318f24d3df7",
+  "image": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "generation": {
+    "method": "built-in image_gen.imagegen",
+    "prompt_path": "assets/generated/illustr-street-night/prompt.txt",
+    "reference_role": "Composition, palette, lighting and rendering reference for a newly generated replacement; not recovered original artwork.",
+    "reference_video_id": "DvDeXNPS3Wc",
+    "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "reference_native_frame": 390,
+    "reference_pts": 6507,
+    "reference_time_base": "1/1000",
+    "reference_frame_sha256": "9734a516b577ab5a236441242f3908e706341b58a4cc39e883637ed633291621",
+    "original_generated_file_preserved": true,
+    "transparent_background": false
+  },
+  "manual_visual_review": {
+    "reviewer": "root",
+    "reference_viewed": true,
+    "generated_image_viewed": true,
+    "scope": "One reference frame and one generated full image; not entire insertion or motion comparison.",
+    "observed": [
+      "Central woman, right man, rear-left man and dark near-edge pedestrian silhouettes preserve the scene composition.",
+      "Navy/cobalt sky, dark silhouettes, cream-white blouse, warm gold/peach light and lavender pavement are represented.",
+      "No subtitle, caption backing or added watermark is visibly present.",
+      "New character poses, buildings, lighting strengths and painted surface details differ; this is a replacement candidate."
+    ],
+    "decision": "usable_as_draft_replacement_pending_timeline_and_style_review"
+  },
+  "original_asset_recovered": false,
+  "exact_match_to_original": false,
+  "reference_footage_pasted_into_output": false,
+  "source_footage_reconstruction_frames": 0,
+  "release_ready": false,
+  "limits": [
+    "The output is newly generated from a reference. It does not establish the original artist, source file or original generation method.",
+    "The provider returned its own raster dimensions despite the requested full-HD minimum; the compositor must scale proportionally and this is recorded explicitly.",
+    "No motion, audio, subtitle timing or full-video validation is implied."
+  ]
+}

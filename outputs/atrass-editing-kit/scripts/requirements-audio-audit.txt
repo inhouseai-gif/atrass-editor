@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
+# Optional local ASR on Apple Silicon only: mlx-whisper==0.4.3 and torch
+# FFmpeg executable is supplied through --ffmpeg.

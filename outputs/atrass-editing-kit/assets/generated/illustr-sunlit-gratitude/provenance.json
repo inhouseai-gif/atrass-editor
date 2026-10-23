@@ -1,0 +1,50 @@
+{
+  "schema": "atrass-generated-replacement-provenance-v1",
+  "asset_id": "illustr-sunlit-gratitude",
+  "created_at": "2026-10-20T22:23:05.709413+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "skill": "<source-machine>/.codex-inhouse/skills/.system/imagegen/SKILL.md",
+  "generation_arguments": {
+    "prompt_file": "prompt.txt",
+    "prompt_sha256": "7112fedee3e693b0c4e97566c21dc9c3e658b2bfda0ff756b063888fca9affa3",
+    "referenced_image_paths": [
+      "<source-machine>/Documents/Codex/2026-10-20/x20-x20-https-www-youtube-com/work/remaining-illustrations/illustr-sunlit-gratitude-native.png"
+    ],
+    "transparent_background": false
+  },
+  "input_role": "composition, palette, framing and painterly style reference; reference captions excluded from generated artwork",
+  "reference_video_id": "DvDeXNPS3Wc",
+  "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+  "input_images": [
+    {
+      "asset_id": "illustr-sunlit-gratitude",
+      "native_frame": 12048,
+      "native_frame_source": "previous canonical asset-gap inventory; exact PTS matched on this decode",
+      "pts": 201001,
+      "time_base": "1/1000",
+      "path": "evidence/asset-replacements/midfilm-candidates-v1/illustr-sunlit-gratitude-native.png",
+      "sha256": "4e15fb62a4592194b04229a804bcff81589fee1dcc3912c8a5caa9875614d3bc"
+    }
+  ],
+  "generated_original_path": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-415f1102-86e9-4eaf-948b-7b17bf975a6c.png",
+  "original_preserved": true,
+  "selected_file": "v1.png",
+  "selected_sha256": "0669ba92c1c8d36e104196347a2b7426cd577c5855b629153a6ea574d6daf931",
+  "mode": "RGB",
+  "size": [
+    1672,
+    941
+  ],
+  "source_original_asset_recovered": false,
+  "replacement_artwork": true,
+  "root_visual_review": {
+    "reference_and_generated_output_viewed": true,
+    "clean_no_baked_text_observed": true,
+    "selection": "candidate for timeline use",
+    "observations": "Warm window backlight, smiling left woman, surprised right man and cup retained. Background plants/table proportions and faces differ."
+  },
+  "not_yet_timeline_rendered": true,
+  "exact_style_approved": false,
+  "release_ready": false,
+  "provenance_frozen_at_generation": true
+}

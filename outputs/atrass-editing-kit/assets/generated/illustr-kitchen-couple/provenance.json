@@ -1,0 +1,50 @@
+{
+  "schema": "atrass-generated-replacement-provenance-v1",
+  "asset_id": "illustr-kitchen-couple",
+  "created_at": "2026-10-20T22:29:17.268311+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "skill": "<source-machine>/.codex-inhouse/skills/.system/imagegen/SKILL.md",
+  "generation_arguments": {
+    "prompt_file": "prompt.txt",
+    "prompt_sha256": "3ae540ede014eeafe9fdeac44df50a2d151551a1cfbbb5b305eefdf176abe5a5",
+    "referenced_image_paths": [
+      "<source-machine>/Documents/Codex/2026-10-20/x20-x20-https-www-youtube-com/work/remaining-illustrations/illustr-kitchen-couple-native.png"
+    ],
+    "transparent_background": false
+  },
+  "input_role": "composition, palette, framing and painterly style reference; reference titles and subtitles excluded from generated artwork",
+  "reference_video_id": "DvDeXNPS3Wc",
+  "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+  "input_images": [
+    {
+      "asset_id": "illustr-kitchen-couple",
+      "native_frame": 27752,
+      "native_frame_source": "previous canonical asset-gap inventory; exact PTS matched on this decode",
+      "pts": 462996,
+      "time_base": "1/1000",
+      "path": "evidence/asset-replacements/latefilm-candidates-v1/illustr-kitchen-couple-native.png",
+      "sha256": "36abceba27fda2f6c8691943e7e605a6e4948936752a0feac5e2093d98ac271f"
+    }
+  ],
+  "generated_original_path": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-b0afc0ee-cdf7-414d-b7a7-e4afd8ac114a.png",
+  "original_preserved": true,
+  "selected_file": "v1.png",
+  "selected_sha256": "1e8df7bee4a8a29eff1f2c74009b3d903611279c8dc4a6b63921af74faaf190d",
+  "mode": "RGB",
+  "size": [
+    1672,
+    941
+  ],
+  "source_original_asset_recovered": false,
+  "replacement_artwork": true,
+  "root_visual_review": {
+    "reference_and_generated_output_viewed": true,
+    "clean_no_baked_title_or_subtitle_observed": true,
+    "selection": "candidate for timeline use",
+    "observations": "Man with tongue out holds a pancake on a spatula above a pan; laughing woman and mint/gold lighting retained. Background and facial detail differ. The spatula is distinct from the pan."
+  },
+  "not_yet_timeline_rendered": true,
+  "exact_style_approved": false,
+  "release_ready": false,
+  "provenance_frozen_at_generation": true
+}

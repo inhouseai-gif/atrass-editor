@@ -1,0 +1,34 @@
+{
+  "schema": "atrass-generated-asset-v1",
+  "asset_id": "illustr-riverside-definition",
+  "created_at_utc": "2026-10-20T21:47:34.386793+00:00",
+  "generation_tool": "built-in image_gen",
+  "is_original_asset": false,
+  "original_design_file_recovered": false,
+  "exact_style_match_approved": false,
+  "image": {
+    "path": "v1.png",
+    "sha256": "c524d969bc508bb933f72a76a3a07d549f64e3bdf3c4b9d4a3d65cf20ea2fa8d",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941
+  },
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "7264fc330eeeb4d3ae091840ec9bb925adc48ba5977f862877ebbea59dbcbaad"
+  },
+  "reference_frame": {
+    "path": "evidence/A-caption-review/pilot-native-f004238.jpg",
+    "sha256": "91266dfdc7b2dfb86a420ad8475ad57d04dd34fba564121a2e5a1148e4785e0d",
+    "native_frame": 4238,
+    "video_id": "DvDeXNPS3Wc",
+    "purpose": "composition/palette/art style reference; overlaid text/bar excluded"
+  },
+  "original_generated_file": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-9fb1e1ac-c791-4c02-b759-0dfd8f7f85a7.png",
+  "root_visual_review": {
+    "viewed": true,
+    "observation": "Two adults seen from behind, cool blue and lavender clothes, woman holds man's arm, navy river and skyline, warm gold rimlight and reflections. Clean art contains no text/bar. Figure proportions, hand placement, skyline density, lighting and texture differ from reference. Replacement candidate only."
+  },
+  "not_yet_timeline_rendered": true,
+  "timeline_status_policy": "Frozen generation provenance; connect later validation rather than overwriting this input."
+}

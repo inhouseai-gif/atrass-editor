@@ -1,0 +1,56 @@
+{
+  "schema": "atrass-generated-replacement-provenance-v1",
+  "asset_id": "illustr-flower-phone-split",
+  "created_at": "2026-10-20T22:29:17.281578+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "skill": "<source-machine>/.codex-inhouse/skills/.system/imagegen/SKILL.md",
+  "generation_arguments": {
+    "prompt_file": "prompt.txt",
+    "prompt_sha256": "7016155cb2e26427f7236cbee8d588b6b1fe7b8f55ed7e19361b020f085117ed",
+    "referenced_image_paths": [
+      "<source-machine>/Documents/Codex/2026-10-20/x20-x20-https-www-youtube-com/work/remaining-illustrations/illustr-flower-phone-split-native.png"
+    ],
+    "transparent_background": false
+  },
+  "input_role": "composition, palette, framing and painterly style reference; reference titles and subtitles excluded from generated artwork",
+  "reference_video_id": "DvDeXNPS3Wc",
+  "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+  "input_images": [
+    {
+      "asset_id": "illustr-flower-phone-split",
+      "native_frame": 29850,
+      "native_frame_source": "previous canonical asset-gap inventory; exact PTS matched on this decode",
+      "pts": 497998,
+      "time_base": "1/1000",
+      "path": "evidence/asset-replacements/latefilm-candidates-v1/illustr-flower-phone-split-native.png",
+      "sha256": "c1a83048ec67ff8bfe07f073bc0d3c732fc984105daa8fdcf0030b3b0ade229e"
+    }
+  ],
+  "generated_original_path": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-16e3d7cf-db67-4777-9bfa-e12faee9ec43.png",
+  "original_preserved": true,
+  "selected_file": "v1.png",
+  "selected_sha256": "3cf87b3b995ebbb3733a0d76d0285bdb46410bfe115317b15527464187ee1a7e",
+  "mode": "RGB",
+  "size": [
+    1672,
+    941
+  ],
+  "source_original_asset_recovered": false,
+  "replacement_artwork": true,
+  "root_visual_review": {
+    "reference_and_generated_output_viewed": true,
+    "clean_no_baked_title_or_subtitle_observed": true,
+    "selection": "candidate for timeline use",
+    "observations": "Warm doorway bouquet on left, cool phone/bed on right and small blue/red notification detail retained. Split/figure proportions and plants differ."
+  },
+  "not_yet_timeline_rendered": true,
+  "exact_style_approved": false,
+  "release_ready": false,
+  "provenance_frozen_at_generation": true,
+  "small_notification_detail": {
+    "baked_into_new_illustration": true,
+    "independently_editable": false,
+    "original_layer_structure_confirmed": false,
+    "reference_small_pseudo_lettering_not_reproduced": true
+  }
+}

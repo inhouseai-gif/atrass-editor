@@ -1,0 +1,18 @@
+{
+  "updated": "2026-10-23",
+  "release_ready": false,
+  "status": "public_distribution_of_common_production_runtime",
+  "latest_user_request": "편집기 공개 배포로 누구나 다운로드",
+  "longform": {
+    "status": "common_runtime_verified_on_known_whole_episode",
+    "completion_gate": {
+      "passed": false
+    }
+  },
+  "shorts": {
+    "status": "requested_single_output_verified; general repeated quality open",
+    "minimum_candidates": 10,
+    "output_count": "respect actual requested count"
+  },
+  "next_action": "Use PRODUCTION.md for actual new source; verify requested output files; keep remaining gates explicit."
+}

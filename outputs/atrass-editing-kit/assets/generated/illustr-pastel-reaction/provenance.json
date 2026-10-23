@@ -1,0 +1,50 @@
+{
+  "schema": "atrass-generated-replacement-provenance-v1",
+  "asset_id": "illustr-pastel-reaction",
+  "created_at": "2026-10-20T22:29:17.260610+00:00",
+  "generator": "built-in image_gen.imagegen",
+  "skill": "<source-machine>/.codex-inhouse/skills/.system/imagegen/SKILL.md",
+  "generation_arguments": {
+    "prompt_file": "prompt.txt",
+    "prompt_sha256": "83548265695b9586c3950ca4b754b28274145bc37c9c68e01b1539cb0479aea6",
+    "referenced_image_paths": [
+      "<source-machine>/Documents/Codex/2026-10-20/x20-x20-https-www-youtube-com/work/remaining-illustrations/illustr-pastel-reaction-native.png"
+    ],
+    "transparent_background": false
+  },
+  "input_role": "composition, palette, framing and painterly style reference; reference titles and subtitles excluded from generated artwork",
+  "reference_video_id": "DvDeXNPS3Wc",
+  "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+  "input_images": [
+    {
+      "asset_id": "illustr-pastel-reaction",
+      "native_frame": 24006,
+      "native_frame_source": "previous canonical asset-gap inventory; exact PTS matched on this decode",
+      "pts": 400500,
+      "time_base": "1/1000",
+      "path": "evidence/asset-replacements/latefilm-candidates-v1/illustr-pastel-reaction-native.png",
+      "sha256": "cb7b807cd41c685d225c518dcba888c5525e458120dd4ad01750ba3d324eddb7"
+    }
+  ],
+  "generated_original_path": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-34681c2a-365b-4627-8b72-9877b8cec682.png",
+  "original_preserved": true,
+  "selected_file": "v1.png",
+  "selected_sha256": "cf22f1cb8f2efb219822bd0ac97f83e532ec5990305b5e3a64bed748002dd508",
+  "mode": "RGB",
+  "size": [
+    1672,
+    941
+  ],
+  "source_original_asset_recovered": false,
+  "replacement_artwork": true,
+  "root_visual_review": {
+    "reference_and_generated_output_viewed": true,
+    "clean_no_baked_title_or_subtitle_observed": true,
+    "selection": "candidate for timeline use",
+    "observations": "Pastel pink couch, delighted clapping woman and smug smiling man retained. Faces, hands, proportions and fine texture differ."
+  },
+  "not_yet_timeline_rendered": true,
+  "exact_style_approved": false,
+  "release_ready": false,
+  "provenance_frozen_at_generation": true
+}

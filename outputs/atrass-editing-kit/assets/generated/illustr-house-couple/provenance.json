@@ -1,0 +1,47 @@
+{
+  "schema": "atrass-generated-asset-v1",
+  "asset_id": "illustr-house-couple",
+  "created_at_utc": "2026-10-20T21:52:25.406505+00:00",
+  "generation_tool": "built-in image_gen",
+  "is_original_asset": false,
+  "original_design_file_recovered": false,
+  "exact_style_match_approved": false,
+  "image": {
+    "path": "v1.png",
+    "sha256": "5cba28ce430743587e80dc3b5e9d794013ec7ede4696cd0a1a89520e7acdc53b",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941
+  },
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "09daea6770cc42336b726564656d91005ed5423a162c2f298fa041d829bf8cb8"
+  },
+  "reference_frame": {
+    "asset_id": "illustr-house-couple",
+    "native_frame": 6673,
+    "pts": 111328,
+    "time_base": "1/1000",
+    "path": "evidence/asset-replacements/story-candidates-v1/illustr-house-couple-native-first.png",
+    "sha256": "3b029fb647ecd80b562ea34aa98c0344c28318ad816d02d1dd5226d7227772f9",
+    "source_video_id": "DvDeXNPS3Wc",
+    "source_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "path_base": "kit root",
+    "purpose": "composition/palette reference; subtitle/chat/thought layers excluded"
+  },
+  "supporting_generated_character_references": [
+    {
+      "asset_id": "illustr-playground-couple",
+      "path": "assets/generated/illustr-playground-couple/v1.png",
+      "sha256": "adb52d15a243209154bb0596c4201db48da887e716b1580bc6da67b5365cf3cf"
+    }
+  ],
+  "original_generated_file": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-349c32ab-1bb5-4d13-9948-67c49ef30c40.png",
+  "root_visual_review": {
+    "viewed": true,
+    "observation": "Same rounded character style, boy offers cream bouquet, girl folds arms, lavender dusk and warm right window. Clean artwork; flower placement, character scale, house and color/light distribution differ.",
+    "full_timeline_render_review": false
+  },
+  "not_yet_timeline_rendered": true,
+  "timeline_status_policy": "Frozen generation provenance; future validation remains separate."
+}

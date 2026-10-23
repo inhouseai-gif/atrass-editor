@@ -1,0 +1,51 @@
+{
+  "schema": "atrass-generated-replacement-asset-v1",
+  "created_at_utc": "2026-10-20T21:27:33.961309+00:00",
+  "id": "illustr-bed-phone-blue",
+  "version": "v1",
+  "output_path": "assets/generated/illustr-bed-phone-blue/v1.png",
+  "sha256": "534551dd5831870538f9a1f824458e29338a981aff0e48691e4f98db9e72cd3c",
+  "image": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "generation": {
+    "method": "built-in image_gen.imagegen",
+    "prompt_path": "assets/generated/illustr-bed-phone-blue/prompt.txt",
+    "prompt_sha256": "c0cb53ce877ed9e57120549a32dc62a28bc913ef5e317aa6d9ab901bc326ed1e",
+    "reference_role": "First native frame as composition, color and painterly style reference for new replacement artwork; all text/bars omitted. Not recovered original artwork.",
+    "reference_video_id": "DvDeXNPS3Wc",
+    "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "reference_native_frame": 590,
+    "reference_pts": 9843,
+    "reference_time_base": "1/1000",
+    "reference_frame_sha256": "a25a0620c585adf5bfa20fec2cf8f6fba2b5e16fb1f3d53f287b3fb640f88ec9",
+    "original_generated_file_preserved": true,
+    "transparent_background": false
+  },
+  "manual_visual_review": {
+    "reviewer": "root",
+    "reference_viewed": true,
+    "generated_image_viewed": true,
+    "scope": "Full first native reference and generated image; no motion or audio approval.",
+    "observed": [
+      "Adult woman is seated on the right looking at a phone; dark bedroom and city window occupy the left/background.",
+      "Navy/cobalt room, warm phone light, cream blouse and cool blue duvet represented; no caption or bar is visibly present.",
+      "New face, room/window detail, clothing folds and phone brightness differ from reference; candidate only."
+    ],
+    "decision": "draft_replacement_pending_timeline_review"
+  },
+  "original_asset_recovered": false,
+  "exact_match_to_original": false,
+  "reference_footage_pasted_into_output": false,
+  "source_footage_reconstruction_frames": 0,
+  "release_ready": false,
+  "limits": [
+    "Newly generated artwork; original artist, source file and production method remain unknown.",
+    "Provider returned its own raster dimensions; compositor must use proportional scaling.",
+    "No final style approval or direct audio listening."
+  ]
+}

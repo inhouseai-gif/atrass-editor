@@ -1,0 +1,51 @@
+{
+  "schema": "atrass-generated-replacement-asset-v1",
+  "created_at_utc": "2026-10-20T21:27:33.969275+00:00",
+  "id": "illustr-counsel-blue",
+  "version": "v1",
+  "output_path": "assets/generated/illustr-counsel-blue/v1.png",
+  "sha256": "5d320f767b5d4c929918df96e55ae2e34d38307c4c4ec6fffcbf2be98dbd380f",
+  "image": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "generation": {
+    "method": "built-in image_gen.imagegen",
+    "prompt_path": "assets/generated/illustr-counsel-blue/prompt.txt",
+    "prompt_sha256": "9b52d009cc9470a6ff4ee355acd8f7b4902d7ac10d3e2e3324718da09527e55e",
+    "reference_role": "First native frame as composition, color and painterly style reference for new replacement artwork; all text/bars omitted. Not recovered original artwork.",
+    "reference_video_id": "DvDeXNPS3Wc",
+    "reference_video_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "reference_native_frame": 1386,
+    "reference_pts": 23123,
+    "reference_time_base": "1/1000",
+    "reference_frame_sha256": "313a755d1131d3951c2cfa73ec4a4d9ed150ccfa7e9ec1e0673417ca5545bc5c",
+    "original_generated_file_preserved": true,
+    "transparent_background": false
+  },
+  "manual_visual_review": {
+    "reviewer": "root",
+    "reference_viewed": true,
+    "generated_image_viewed": true,
+    "scope": "Full first native reference and generated image; no motion or audio approval.",
+    "observed": [
+      "Two seated adults face each other, man left and woman right, with full chairs and feet visible.",
+      "Cobalt room, lavender floor, diagonal cool light, warm rim light and central peach floor pool represented.",
+      "No title/subtitle/logo/bar visible. New figures, chair details, facial expressions and light pattern differ from reference."
+    ],
+    "decision": "draft_replacement_pending_timeline_review"
+  },
+  "original_asset_recovered": false,
+  "exact_match_to_original": false,
+  "reference_footage_pasted_into_output": false,
+  "source_footage_reconstruction_frames": 0,
+  "release_ready": false,
+  "limits": [
+    "Newly generated artwork; original artist, source file and production method remain unknown.",
+    "Provider returned its own raster dimensions; compositor must use proportional scaling.",
+    "No final style approval or direct audio listening."
+  ]
+}

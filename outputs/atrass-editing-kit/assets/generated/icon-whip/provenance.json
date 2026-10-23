@@ -1,0 +1,50 @@
+{
+  "schema": "atrass-generated-asset-v1",
+  "asset_id": "icon-whip",
+  "created_at_utc": "2026-10-20T21:46:38.455873+00:00",
+  "generation_tool": "built-in image_gen",
+  "is_original_asset": false,
+  "original_design_file_recovered": false,
+  "exact_style_match_approved": false,
+  "image": {
+    "path": "v1.png",
+    "sha256": "c57f6799c334685dd324c5f8bde551d1e56f64ffe0b709716bfbbfa2858a3f29",
+    "mode": "RGBA",
+    "width": 1347,
+    "height": 1167
+  },
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "619e3f7ca43b2ff329db30a4b919935ada9ea2c3d0e51fced2b84704d1f4bf11"
+  },
+  "reference_frame": {
+    "path": "work/next-longform-audit/native/f34495.png",
+    "sha256": "b47d77a7668136b9f9806bd06fb0d99b640699889720fcfd5f2365d745c88aa2",
+    "native_frame": 34495,
+    "video_id": "DvDeXNPS3Wc",
+    "purpose": "icon design reference only; reference background/words not used as output"
+  },
+  "original_generated_file": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-ab41b30c-64fc-4a73-9379-abea39a255a8.png",
+  "selection": {
+    "candidates": 2,
+    "selected": "first candidate",
+    "second_candidate": "work/whip-generation/v2.png",
+    "raw_alpha_preserved": true,
+    "candidate_v1_alpha_gt127_bbox": [
+      104,
+      92,
+      1311,
+      1082
+    ],
+    "actual_visible_core_preview_width_px": 225,
+    "review_image": "work/body-550-617/whip-actual-size-preview.png",
+    "review_sha256": "dda65d05b5fe932d921fa7daa0a5445ad8e3573f7ab104150d4fb5eb81f0248f",
+    "reviewers": [
+      "root",
+      "media_acquire"
+    ],
+    "observation": "At intended size the light low-alpha speckling visible at high resolution is not conspicuous. Shape, inner loop, tails, handle and stroke palette differ from original; provisional replacement only. No alpha pixels edited or stripped."
+  },
+  "not_yet_timeline_rendered": true,
+  "timeline_status_policy": "Frozen generation provenance; connect later validation rather than overwriting this input."
+}

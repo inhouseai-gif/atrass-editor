@@ -1,0 +1,1 @@
+저장소 루트 README.md → AGENTS.md → outputs/atrass-editing-kit/PRODUCTION.md 순서로 읽고 새 원본 제작을 실행한다. 공개 배포본은 A계열 공통 경로만 포함한다.

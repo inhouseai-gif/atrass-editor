@@ -1,0 +1,41 @@
+{
+  "schema": "atrass-generated-asset-v1",
+  "asset_id": "illustr-playground-couple",
+  "created_at_utc": "2026-10-20T21:52:25.399205+00:00",
+  "generation_tool": "built-in image_gen",
+  "is_original_asset": false,
+  "original_design_file_recovered": false,
+  "exact_style_match_approved": false,
+  "image": {
+    "path": "v1.png",
+    "sha256": "adb52d15a243209154bb0596c4201db48da887e716b1580bc6da67b5365cf3cf",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941
+  },
+  "prompt": {
+    "path": "prompt.txt",
+    "sha256": "fe988c9e67e4b1ebf6bcd587681a755396e8f033df8550c352e23d09752afb54"
+  },
+  "reference_frame": {
+    "asset_id": "illustr-playground-couple",
+    "native_frame": 5598,
+    "pts": 93393,
+    "time_base": "1/1000",
+    "path": "evidence/asset-replacements/story-candidates-v1/illustr-playground-couple-native-first.png",
+    "sha256": "061c9900f583c71589bc077ebe33283318616ec4eefca4bf5f928ef52f420104",
+    "source_video_id": "DvDeXNPS3Wc",
+    "source_sha256": "6d00a27dbba7618cd000d70998295e6ae364c6b8a8d6e46870614ca83ffae85b",
+    "path_base": "kit root",
+    "purpose": "composition/palette reference; subtitle/chat/thought layers excluded"
+  },
+  "supporting_generated_character_references": [],
+  "original_generated_file": "<source-machine>/.codex-inhouse/generated_images/01a15975-aec0-7ad3-994e-61025e38ff61/exec-2bad85cd-7db8-4a85-b742-8e61dcb25c5e.png",
+  "root_visual_review": {
+    "viewed": true,
+    "observation": "Shy smiling foreground boy, crossed-arm frowning girl, teal/coral clothes and blue playground with gold accents. No text. New skyline, sparkle/hand detail, proportions and sky gradient differ.",
+    "full_timeline_render_review": false
+  },
+  "not_yet_timeline_rendered": true,
+  "timeline_status_policy": "Frozen generation provenance; future validation remains separate."
+}
